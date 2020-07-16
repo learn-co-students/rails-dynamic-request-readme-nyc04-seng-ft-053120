@@ -3,5 +3,12 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#  cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+ # Mayor.create(name: 'Emanuel', city: cities.first)
+
+ blog = Post.create([{
+
+    title: 'Three Little women',
+    description: 'I love this movie'
+ }])
+ puts 'done seeding!'
